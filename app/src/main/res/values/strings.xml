@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">Paging With Retrofit</string>
+  <string name="title_retry">Retry</string>
+</resources>

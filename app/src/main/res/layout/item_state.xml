@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/stateContainer"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:orientation="vertical"
+  android:padding="8dp">
+
+  <TextView
+    android:id="@+id/stateMessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:textColor="@color/colorAccent"
+    tools:text="Something went wrong!" />
+
+  <ProgressBar
+    android:id="@+id/stateProgressBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+  <Button
+    android:id="@+id/stateRetryBtn"
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/title_retry" />
+</LinearLayout>
